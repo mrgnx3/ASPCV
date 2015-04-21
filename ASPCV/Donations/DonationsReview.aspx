@@ -7,10 +7,9 @@
         </SelectParameters>
     </asp:SqlDataSource>
 
-    <!--<asp:ImageButton ID="CheckoutImageBtn" runat="server" ImageUrl="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif"
+    <asp:ImageButton ID="CheckoutImageBtn" runat="server" ImageUrl="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif"
                       Width="145" AlternateText="Check out with PayPal"
-                      OnClick="CheckoutBtn_Click"
-                      BackColor="Transparent" BorderWidth="0" />-->
+                      BackColor="Transparent" BorderWidth="0" />
     <asp:FormView ID="FormView1" runat="server" DataKeyNames="PaymentId" DataSourceID="SqlDataSource1" Width="358px">
         <EditItemTemplate>
             PaymentId:
