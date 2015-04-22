@@ -88,7 +88,7 @@
                     SelectMethod="GetTypes" >
                     <ItemTemplate>
                         <b style="font-size: large; font-style: normal">
-                        <a href="/ProjectList.aspx?type=<%#: Item.Genre %>">
+                        <a href="/ProjectList.aspx?type=<%#: Item.Genre %>" onmouseover="parent.location='/ProjectList.aspx?type=<%#: Item.Genre %>'">
                             <%#:String.Format("{0:c}", Item.Genre) %>
                         </a>
                     </b>
