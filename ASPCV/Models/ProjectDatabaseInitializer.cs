@@ -5,7 +5,7 @@ using System;
 
 namespace ASPCV.Models
 {
-    public class ProjectDatabaseInitializer : DropCreateDatabaseIfModelChanges<ProjectContext>
+    public class ProjectDatabaseInitializer : DropCreateDatabaseAlways<ProjectContext>
     {
 
 
