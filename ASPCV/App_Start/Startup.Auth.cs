@@ -53,7 +53,7 @@ namespace ASPCV
 
             //app.UseGoogleAuthentication();
 
-            app.UseLinkedInAuthentication("ab2ddc7b-3da0-4e4b-86c0-ffae2b085514", "4b3acca8-a303-4a36-8bbc-9c01869501f2");
+            app.UseLinkedInAuthentication("770bs5txrj782a", "BYMpzIBLSQszVRP2");
         }
     }
 }
